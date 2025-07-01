@@ -1,0 +1,40 @@
+Quoradux/
+├── README.md
+├── package.json
+├── package-lock.json
+├── .gitignore
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   └── manifest.json
+├── src/
+│   ├── components/
+│   │   ├── QuoraduxIntel.jsx
+│   │   ├── DecisionLogger.jsx
+│   │   ├── PatternAnalyzer.jsx
+│   │   └── index.js
+│   ├── hooks/
+│   │   ├── useDecisionData.js
+│   │   ├── useInsights.js
+│   │   └── index.js
+│   ├── utils/
+│   │   ├── decisionAnalyzer.js
+│   │   ├── patternDetection.js
+│   │   └── dataValidation.js
+│   ├── styles/
+│   │   ├── globals.css
+│   │   └── quoradux.css
+│   ├── data/
+│   │   ├── mockData.js
+│   │   └── schemas.js
+│   ├── App.jsx
+│   ├── index.js
+│   └── index.css
+├── docs/
+│   ├── integration-guide.md
+│   ├── api-reference.md
+│   └── examples/
+└── tests/
+    ├── components/
+    ├── utils/
+    └── __mocks__/
